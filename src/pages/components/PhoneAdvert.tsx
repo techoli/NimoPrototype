@@ -4,10 +4,25 @@ import ButtonCustom from "./ButtonCustom";
 import apple from "../../images/apple.png";
 import play from "../../images/play.png";
 import fire from "../../images/fire.png";
+import phone1 from "../../images/phone1.png";
+import phone2 from "../../images/phone2.png";
+import frame from "../../images/Frame.png";
 
 function PhoneAdvert() {
   return (
     <div className="w-full relative bg-[#F8F4F4] h-[449px] px-20 py-10">
+      <img
+        className="absolute bottom-[1px] right-[290px] w-[350px] h-[300px]"
+        src={phone1}
+      />
+      <img
+        className="absolute bottom-[1px] right-[70px] w-[371px] h-[320px]"
+        src={phone2}
+      />
+      {/* <img
+        className="absolute top-[80px] right-[140px] w-[250px] h-[250px] z-50"
+        src={frame}
+      /> */}
       <div className="w-[857px]">
         <h3 className="font-[poppins] text-[48px] font-[500]">
           Begin a seamless learning journey!

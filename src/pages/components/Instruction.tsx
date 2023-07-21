@@ -3,11 +3,16 @@ import num1 from "../../images/1.png";
 import bg from "../../images/bgmc.png";
 import Button from "./Button";
 import { InstructionData } from "../../data/data";
+import image from "../../images/instrlogo.png";
 
 function Instruction() {
   return (
     <div className="h-[816px] w-full bg-[#FFEBE9] pt-32 relative">
       <img src={bg} className="absolute rotate-[]  top-[0px]" />
+      <img
+        className="absolute top-[40px] right-[10px] w-[285px] h-[213px]"
+        src={image}
+      />
       <div className="w-[50%] ml-[30rem] pl-[50px] ">
         <h1 className="text-[56px] font-[poppins] font-[600] mb-10">
           How It Works
