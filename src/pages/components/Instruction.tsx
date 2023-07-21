@@ -14,7 +14,7 @@ function Instruction() {
         </h1>
         <ol className="  list-none leading-[normal] mb-16">
           {InstructionData?.map((item) => (
-            <li className="mt-2">
+            <li className="mt-6">
               <div className="flex gap-8 items-center">
                 <img className="w-[80px] h-[80px]" src={item.image} />
                 <p className="font-[poppins] text-[24px] leading-normal font-[500]">
@@ -24,7 +24,9 @@ function Instruction() {
             </li>
           ))}
         </ol>
-        <Button height={50} width={218} text1="Get Started" />
+        <div className="h-[50px] w-[218px]">
+          <Button text1="Get Started" />
+        </div>
       </div>
     </div>
   );

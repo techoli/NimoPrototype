@@ -9,10 +9,12 @@ import PhoneAdvert from "./components/PhoneAdvert";
 import Button from "./components/Button";
 import Instruction from "./components/Instruction";
 import Header from "./components/Header";
+import Benefits from "./components/Benefits";
+import ButtonCustom from "./components/ButtonCustom";
 
 function LandingPage() {
   return (
-    <div className="w-full  min-w-[1403px] m-[auto]">
+    <div className="w-full max-w-[1440px]  min-w-[1403px] m-[auto]">
       <Header />
       <div className="p-20 relative w-full ">
         <div className=" w-full  flex ">
@@ -73,10 +75,13 @@ function LandingPage() {
             src={image3}
           />
         </div>
-        <Button height={50} width={218} text1="Get Started" />
+        <div className="h-[50px] w-[218px]">
+          <Button text1="Get Started" />
+        </div>
       </div>
       <PhoneAdvert />
       <Instruction />
+      <Benefits />
     </div>
   );
 }
