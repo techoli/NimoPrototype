@@ -12,7 +12,7 @@ import Header from "./components/Header";
 
 function LandingPage() {
   return (
-    <div className="w-full max-w-[1440px] min-w-[1403px] m-[auto]">
+    <div className="w-full  min-w-[1403px] m-[auto]">
       <Header />
       <div className="p-20 relative w-full ">
         <div className=" w-full  flex ">
