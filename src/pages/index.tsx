@@ -10,7 +10,8 @@ import Button from "./components/Button";
 import Instruction from "./components/Instruction";
 import Header from "./components/Header";
 import Benefits from "./components/Benefits";
-import ButtonCustom from "./components/ButtonCustom";
+import Grades from "./components/Grades";
+import fire from "../images/fire.png";
 
 function LandingPage() {
   return (
@@ -18,23 +19,32 @@ function LandingPage() {
       <Header />
       <div className="p-20 relative w-full ">
         <div className=" w-full  flex ">
-          <div className="w-[65%]  ">
+          <div className=" mt-[85px] ">
             <div className="w-[677px]">
+              <div className="flex gap-2 px-1">
+                <p className="text-[18px] font-[500] text-[#EC2958]">
+                  Coming in September
+                </p>
+                <img src={fire} />
+              </div>
+
               <h3 className=" font-[poppins] font-[600] text-[64px] drop-shadow-xl">
-                AI Self-tutoring App <br />
-                <span className=" font-[Comic Neue] text-[#4F46E5]">
-                  For Kids And Teens
+                Self-tutoring App
+                <span className=" font-[Comic Neue] text-[#EC2958]">
+                  For <br />
+                  Kids And Teens
                 </span>
               </h3>
-              <div className="mt-10 mb-24 border-l-4  border-[#FBCECE] w-[full] px-2">
-                <p className="text-[16px]">
-                  Our self-learning platform aims to empower kids and teens by
-                  allowing them learn school curriculum and extra curriculum
-                  lessons, helping them to keep their learning on track even
-                  outside school. Through the use of AI, the platform can adapt
-                  to each child's learning style, pace, and preferences,
-                  tailoring the content and activities to suit their specific
-                  needs.
+              <div className="mt-2 mb-14 border-l-4  border-[#FBCECE] w-[full] px-2">
+                <p className="text-[17px] font-[600]">
+                  Introducing our self-tutoring app, an AI tool that empowers
+                  primary and secondary school students to independently study
+                  their school curriculum and explore extra-curricular lessons
+                  with no need for human supervision. It ensures their learning
+                  remains on track beyond the classroom.{" "}
+                  <a href="#" className="text-[#EC2958]">
+                    Read More
+                  </a>
                 </p>
               </div>
             </div>
@@ -75,13 +85,19 @@ function LandingPage() {
             src={image3}
           />
         </div>
-        <div className="h-[50px] w-[218px]">
-          <Button text1="Get Started" />
+        <div className="h-[80px] w-[312px]">
+          <Button text1="Join Discount List + Get Free E-book" />
+        </div>
+        <div className="w-[353px]">
+          <p className="text-[#EC2958] font-[600] text-[18px]">
+            N/B: Joining the discount list is FREE! No advance payment needed
+          </p>
         </div>
       </div>
       <PhoneAdvert />
       <Instruction />
       <Benefits />
+      <Grades />
     </div>
   );
 }

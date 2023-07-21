@@ -5,7 +5,7 @@ import BenefitCard from "./BenefitCard";
 
 function Benefits() {
   return (
-    <div className="w-full relative  h-[449px] px-20 py-10">
+    <div className="w-full relative  px-20 py-10 ">
       {BenefitData?.map((item) => (
         <BenefitCard
           h1={item.h1}

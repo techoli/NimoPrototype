@@ -1,4 +1,8 @@
-import { InstructionDatatype, BenefitDataTypes } from "../types/types";
+import {
+  InstructionDatatype,
+  BenefitDataTypes,
+  GradeDataTypes,
+} from "../types/types";
 import images1 from "../images/1.png";
 import images2 from "../images/2.png";
 import images3 from "../images/3.png";
@@ -7,6 +11,9 @@ import varimg from "../images/var.png";
 import robot from "../images/robot.png";
 import study from "../images/study.png";
 import universe from "../images/universe.png";
+import grade1 from "../images/grade1.png";
+import grade2 from "../images/grade2.png";
+import grade3 from "../images/grade3.png";
 
 export const InstructionData: InstructionDatatype[] = [
   { image: images1, text: "Sign your child up on Tioo " },
@@ -53,5 +60,23 @@ export const BenefitData: BenefitDataTypes[] = [
     p2: " This self-learning aspect allows children and teenagers to take control of their education, exploring topics of interest and advancing at their own pace, while still receiving guidance and support from the AI system.",
     img: study,
     rightrender: false,
+  },
+];
+
+export const GradeData: GradeDataTypes[] = [
+  {
+    img: grade1,
+    heading: "Nursery",
+    text: "Immersive lessons in school curriculum and extra curriculum to provide the ideal academic start.",
+  },
+  {
+    img: grade2,
+    heading: "Primary",
+    text: "Lessons in Mathematics, English, Basic Science, and Technology that are simple to understand to help your youngster solve problems like a pro.",
+  },
+  {
+    img: grade3,
+    heading: "Secondary",
+    text: "Learn challenging ideas through simplified lessons in Mathematics, English, Science, Arts, and Commercials.",
   },
 ];

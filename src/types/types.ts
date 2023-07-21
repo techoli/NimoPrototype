@@ -18,3 +18,9 @@ export interface BenefitDataTypes {
   img: string;
   rightrender: boolean;
 }
+
+export interface GradeDataTypes {
+  img: string;
+  heading: string;
+  text: string;
+}
