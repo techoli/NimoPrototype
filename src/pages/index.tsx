@@ -5,44 +5,46 @@ import image3 from "../images/img3.png";
 import image4 from "../images/img4.png";
 import image5 from "../images/img5.png";
 import image6 from "../images/img6.png";
-import PhoneAdvert from "./components/PhoneAdvert";
+import PhoneAdvert from "./sections/mobileadvert/PhoneAdvert";
 import Button from "./components/Button";
-import Instruction from "./components/Instruction";
+import Instruction from "./sections/instruction/Instruction";
 import Header from "./components/Header";
-import Benefits from "./components/Benefits";
+// import Benefits from "./sections/Benefits";
+import Benefits from "../pages/sections/benefits/Benefits";
 import Grades from "./components/Grades";
 import fire from "../images/fire.png";
+import Navbar from "./sections/navbar/Navbar";
 
 function LandingPage() {
   return (
     <div className="w-full max-w-[1440px]  min-w-[1403px] m-[auto]">
-      <Header />
-      <div className="p-20 relative w-full ">
+      <Navbar />
+      <div className="px-20 py-14 relative w-full h-[vh]  ">
         <div className=" w-full  flex ">
-          <div className=" mt-[85px] ">
+          <div className=" mt-[35px] ">
             <div className="w-[677px]">
               <div className="flex gap-2 px-1">
-                <p className="text-[18px] font-[500] text-[#EC2958]">
+                <p className="text-[18px] font-[500] text-[#EC2958] leading-none] ">
                   Coming in September
                 </p>
                 <img src={fire} />
               </div>
 
-              <h3 className=" font-[poppins] font-[600] text-[64px] drop-shadow-xl">
+              <h3 className=" font-[poppins] font-[600] text-[64px] drop-shadow-xl leading-normal">
                 Self-tutoring App
                 <span className=" font-[Comic Neue] text-[#EC2958]">
                   For <br />
                   Kids And Teens
                 </span>
               </h3>
-              <div className="mt-2 mb-14 border-l-4  border-[#FBCECE] w-[full] px-2">
-                <p className="text-[17px] font-[600]">
+              <div className="mt-2 mb-12 border-l-4  border-[#FBCECE] w-[full] px-2">
+                <p className="text-[17px] font-[500]">
                   Introducing our self-tutoring app, an AI tool that empowers
                   primary and secondary school students to independently study
                   their school curriculum and explore extra-curricular lessons
                   with no need for human supervision. It ensures their learning
                   remains on track beyond the classroom.{" "}
-                  <a href="#" className="text-[#EC2958]">
+                  <a href="#" className="text-[#EC2958] underline">
                     Read More
                   </a>
                 </p>
@@ -59,12 +61,12 @@ function LandingPage() {
           {/* <h1 className="text-[blue] mt-3">fff</h1> */}
           {/* <img src/>   */}
           <img
-            className="absolute w-[89px] h-[89px] top-[20px] right-[598px]"
+            className="absolute w-[71px] h-[71px] top-[20px] right-[598px]"
             alt="a"
             src={image6}
           />
           <img
-            className="absolute w-[59px] h-[59px] top-[20px] left-[19px]"
+            className="absolute w-[28px] h-[28px] top-[60px] left-[10px]"
             alt="a"
             src={image5}
           />
@@ -75,18 +77,18 @@ function LandingPage() {
           />
 
           <img
-            className="absolute w-[92px] h-[92px] bottom-[1px] right-[605px]"
+            className="absolute w-[92px] h-[92px] bottom-[40px] right-[605px]"
             alt="a"
             src={image2}
           />
           <img
-            className="absolute w-[72px] h-[72px] bottom-[20px] right-[15px]"
+            className="absolute w-[72px] h-[72px] bottom-[60px] right-[15px]"
             alt="a"
             src={image3}
           />
         </div>
         <div className="h-[80px] w-[312px]">
-          <Button text1="Join Discount List + Get Free E-book" />
+          <Button text1="Join Discount List" />
         </div>
         <div className="w-[353px]">
           <p className="text-[#EC2958] font-[600] text-[18px]">

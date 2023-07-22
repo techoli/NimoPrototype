@@ -6,11 +6,15 @@ export interface button {
   image?: string;
 }
 export interface InstructionDatatype {
+  id: number;
+
   image: string;
   text: string;
 }
 
 export interface BenefitDataTypes {
+  id: number;
+
   h1: string;
   h2?: string;
   p1: string;
@@ -20,7 +24,14 @@ export interface BenefitDataTypes {
 }
 
 export interface GradeDataTypes {
+  id: number;
+
   img: string;
   heading: string;
   text: string;
+}
+export interface NavDataTypes {
+  id: number;
+  text: string;
+  url?: string;
 }

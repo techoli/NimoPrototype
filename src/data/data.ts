@@ -2,6 +2,7 @@ import {
   InstructionDatatype,
   BenefitDataTypes,
   GradeDataTypes,
+  NavDataTypes,
 } from "../types/types";
 import images1 from "../images/1.png";
 import images2 from "../images/2.png";
@@ -14,15 +15,18 @@ import universe from "../images/universe.png";
 import grade1 from "../images/grade1.png";
 import grade2 from "../images/grade2.png";
 import grade3 from "../images/grade3.png";
+import { url } from "inspector";
 
 export const InstructionData: InstructionDatatype[] = [
-  { image: images1, text: "Sign your child up on Tioo " },
+  { id: 1, image: images1, text: "Sign your child up on Tioo " },
   {
+    id: 2,
     image: images2,
     text: "Get access to school curriculum and co-curriculum contents ",
   },
-  { image: images3, text: "Choose a subject and start learning!" },
+  { id: 3, image: images3, text: "Choose a subject and start learning!" },
   {
+    id: 4,
     image: images4,
     text: "Enjoy gamified lesson slides and real-time  feedback!",
   },
@@ -30,6 +34,7 @@ export const InstructionData: InstructionDatatype[] = [
 
 export const BenefitData: BenefitDataTypes[] = [
   {
+    id: 1,
     h1: "Why Tioo?",
     h2: "Globally Competitive",
     p1: "With Tioo, we take your child’s grades and productivity to a next level",
@@ -38,6 +43,7 @@ export const BenefitData: BenefitDataTypes[] = [
     rightrender: true,
   },
   {
+    id: 2,
     h1: "Immersive and Gamified",
     h2: "",
     p1: "Our self-learning platform allows students access their lessons, quizzes and school work in an immersive and interactive format which makes their learning less traditional and more fun & engaging.",
@@ -46,6 +52,7 @@ export const BenefitData: BenefitDataTypes[] = [
     rightrender: false,
   },
   {
+    id: 3,
     h1: "Real-Time Feedback",
     h2: "",
     p1: "Our AI provides instant and real-time feedback to children as they learn, helping them in areas they encounter challenges. Our AI tutor can help students solve maths problems, Which makes learning seamless and easy!",
@@ -54,6 +61,7 @@ export const BenefitData: BenefitDataTypes[] = [
     rightrender: true,
   },
   {
+    id: 4,
     h1: "Self-Learning",
     h2: "",
     p1: "The platform's AI capabilities enable it to continuously learn and improve over time, ensuring that the content and recommendations remain up to date and relevant.",
@@ -65,18 +73,54 @@ export const BenefitData: BenefitDataTypes[] = [
 
 export const GradeData: GradeDataTypes[] = [
   {
+    id: 1,
     img: grade1,
     heading: "Nursery",
     text: "Immersive lessons in school curriculum and extra curriculum to provide the ideal academic start.",
   },
   {
+    id: 2,
     img: grade2,
     heading: "Primary",
     text: "Lessons in Mathematics, English, Basic Science, and Technology that are simple to understand to help your youngster solve problems like a pro.",
   },
   {
+    id: 3,
     img: grade3,
     heading: "Secondary",
     text: "Learn challenging ideas through simplified lessons in Mathematics, English, Science, Arts, and Commercials.",
+  },
+];
+
+export const NavData: NavDataTypes[] = [
+  {
+    id: 1,
+    text: "Home",
+    url: "",
+  },
+  {
+    id: 2,
+    text: "About",
+    url: "",
+  },
+  {
+    id: 3,
+    text: "Schools",
+    url: "",
+  },
+  {
+    id: 4,
+    text: "Educators",
+    url: "",
+  },
+  {
+    id: 5,
+    text: "Flipped classroom",
+    url: "",
+  },
+  {
+    id: 6,
+    text: "More",
+    url: "",
   },
 ];

@@ -1,9 +1,9 @@
 import React from "react";
 import num1 from "../../images/1.png";
-import bg from "../../images/bgmc.png";
-import Button from "./Button";
-import { InstructionData } from "../../data/data";
-import image from "../../images/instrlogo.png";
+import bg from "../../../images/bgmc.png";
+import Button from "../../components/Button";
+import { InstructionData } from "../../../data/data";
+import image from "../../../images/instrlogo.png";
 
 function Instruction() {
   return (

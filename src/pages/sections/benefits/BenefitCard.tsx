@@ -1,5 +1,5 @@
 import React from "react";
-import { BenefitDataTypes } from "../../types/types";
+import { BenefitDataTypes } from "../../../types/types";
 
 const BenefitCard: React.FC<BenefitDataTypes> = ({
   h1,

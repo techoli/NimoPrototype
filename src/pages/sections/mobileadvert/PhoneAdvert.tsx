@@ -1,11 +1,12 @@
 import React from "react";
-import Button from "./Button";
-import ButtonCustom from "./ButtonCustom";
-import apple from "../../images/apple.png";
-import play from "../../images/play.png";
-import fire from "../../images/fire.png";
-import phone1 from "../../images/phone1.png";
-import phone2 from "../../images/phone2.png";
+import Button from "../../components/Button";
+import ButtonCustom from "../../components/ButtonCustom";
+import apple from "../../../images/apple.png";
+import play from "../../../images/play.png";
+import fire from "../../../images/fire.png";
+import phone1 from "../../../images/phone1.png";
+// import phone2 from "../../images/phone2.png";
+import phone2 from "../../../images/phone2.png";
 import frame from "../../images/Frame.png";
 
 function PhoneAdvert() {
@@ -27,7 +28,7 @@ function PhoneAdvert() {
         <h3 className="font-[poppins] text-[48px] font-[500]">
           Begin a seamless learning journey!
         </h3>
-        <p className="text-[24px] font-[poppins] mt-5 ">
+        <p className="text-[24px] font-[poppins] font-[500] mt-5 ">
           Download the app and get easier access to multiple lessons for your
           learning journey
         </p>
