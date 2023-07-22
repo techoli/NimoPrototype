@@ -14,6 +14,8 @@ import Benefits from "../pages/sections/benefits/Benefits";
 import Grades from "./components/Grades";
 import fire from "../images/fire.png";
 import Navbar from "./sections/navbar/Navbar";
+import TopicsVariety from "./sections/topics/TopicsVariety";
+import FAQ from "./sections/faq/FAQ";
 
 function LandingPage() {
   return (
@@ -32,7 +34,7 @@ function LandingPage() {
 
               <h3 className=" font-[poppins] font-[600] text-[64px] drop-shadow-xl leading-normal">
                 Self-tutoring App
-                <span className=" font-[Comic Neue] text-[#EC2958]">
+                <span className=" font-[Comic Neue] text-[#EC2958] ml-2">
                   For <br />
                   Kids And Teens
                 </span>
@@ -100,6 +102,8 @@ function LandingPage() {
       <Instruction />
       <Benefits />
       <Grades />
+      <TopicsVariety />
+      <FAQ />
     </div>
   );
 }

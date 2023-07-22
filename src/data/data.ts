@@ -15,6 +15,9 @@ import universe from "../images/universe.png";
 import grade1 from "../images/grade1.png";
 import grade2 from "../images/grade2.png";
 import grade3 from "../images/grade3.png";
+import t1 from "../pages/sections/topics/image/t1.png";
+import t2 from "../pages/sections/topics/image/t2.png";
+import t3 from "../pages/sections/topics/image/t3.png";
 import { url } from "inspector";
 
 export const InstructionData: InstructionDatatype[] = [
@@ -89,6 +92,26 @@ export const GradeData: GradeDataTypes[] = [
     img: grade3,
     heading: "Secondary",
     text: "Learn challenging ideas through simplified lessons in Mathematics, English, Science, Arts, and Commercials.",
+  },
+];
+export const TopicsData: GradeDataTypes[] = [
+  {
+    id: 1,
+    img: t2,
+    heading: "Get the App",
+    text: "And enjoy access to diverse curriculum and a seamless learning flow",
+  },
+  {
+    id: 2,
+    img: t1,
+    heading: "Own a smart school",
+    text: "Educational institutions can own a smart school by uploading their curriculum on our platform and giving access to students. ",
+  },
+  {
+    id: 3,
+    img: t3,
+    heading: "Become an educator",
+    text: "With the help of AI, you can create and design lessons with our vast resources and earn passive income when you publish them on our marketplace.",
   },
 ];
 
