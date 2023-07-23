@@ -69,7 +69,18 @@ function FAQ() {
       <h1 className=" font-[500] text-[48px]">Frequently Asked Questions</h1>
       <div className="bg-[#FFF] rounded-[8px] p-10 mt-10 m-[auto]  w-[1123px] shadow-md border">
         {/* Heading */}
-        <div className="w-full h-[100px] border border-gray-500  ">Heading</div>
+        <div className="w-full h-[80px]  flex justify-center  ">
+          <div className="w-[80%] h-[90%] flex justify-between">
+            <div className=" h-full font-[600] text-[18px]">Membership</div>
+            <div className=" h-full font-[600] text-[18px]">Tioo App</div>
+            <div className=" h-full font-[600] text-[18px]">
+              Privacy/Security
+            </div>
+            <div className=" h-full font-[600] text-[18px]">
+              Reyurn/Refund Policy
+            </div>
+          </div>
+        </div>
         {/* content */}
         {itemfordrop?.map((el, index) => (
           <DropItem
