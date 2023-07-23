@@ -16,10 +16,11 @@ import fire from "../images/fire.png";
 import Navbar from "./sections/navbar/Navbar";
 import TopicsVariety from "./sections/topics/TopicsVariety";
 import FAQ from "./sections/faq/FAQ";
+import Footer from "./sections/footer/Footer";
 
 function LandingPage() {
   return (
-    <div className="w-full max-w-[1440px]  min-w-[1403px] m-[auto]">
+    <div className="w-full max-w-[1440px]  min-w-[1403px] m-[auto] text-[#5c597d]">
       <Navbar />
       <div className="px-20 py-14 relative w-full h-[vh]  ">
         <div className=" w-full  flex ">
@@ -104,6 +105,7 @@ function LandingPage() {
       <Grades />
       <TopicsVariety />
       <FAQ />
+      <Footer />
     </div>
   );
 }

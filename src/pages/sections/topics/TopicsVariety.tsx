@@ -36,7 +36,7 @@ function TopicsVariety() {
               <h1 className="text-[24px] font-[600] my-1">{item.heading}</h1>
               <p className="text-[14px] font-[500]">{item.text}</p>
               <a
-                className="absolute  bottom-[3px] text-[18px] font-[500]"
+                className="absolute  bottom-[3px] text-[18px] font-[500] text-[#4F46E5]"
                 href="#"
               >
                 {" "}

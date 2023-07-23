@@ -10,7 +10,7 @@ const ButtonCustom: React.FC<button> = ({
 }) => {
   return (
     <div
-      className={` items-center gap-5 font-[poppins] text-[18px] p-2 flex h-[${height}px] w-[${width}px] bg-[#4F46E5] rounded-[8px] text-[white] px-7`}
+      className={` items-center gap-5 font-[poppins] text-[18px] p-2 flex h-[${height}px] w-[${width}px] bg-[#4F46E5] rounded-[8px] text-[white] px-7 cursor-pointer`}
     >
       {image && <img className="h-[24px] w-[24px]" src={image} />}
       <div className="flex flex-col">
