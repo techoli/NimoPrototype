@@ -17,6 +17,7 @@ import Navbar from "./sections/navbar/Navbar";
 import TopicsVariety from "./sections/topics/TopicsVariety";
 import FAQ from "./sections/faq/FAQ";
 import Footer from "./sections/footer/Footer";
+import HowItWorks from "./sections/how it works/HowItWorks";
 
 function LandingPage() {
   return (
@@ -99,6 +100,7 @@ function LandingPage() {
           </p>
         </div>
       </div>
+      <HowItWorks />
       {/* <PhoneAdvert />
       <Instruction /> */}
       <Benefits />
