@@ -63,27 +63,27 @@ function LandingPage() {
 
           {/* <h1 className="text-[blue] mt-3">fff</h1> */}
           {/* <img src/>   */}
-          <img
+          {/* <img
             className="absolute w-[71px] h-[71px] top-[20px] right-[598px]"
             alt="a"
             src={image6}
-          />
-          <img
+          /> */}
+          {/* <img
             className="absolute w-[28px] h-[28px] top-[60px] left-[10px]"
             alt="a"
             src={image5}
-          />
-          <img
+          /> */}
+          {/* <img
             className="absolute w-[41px] h-[41px] top-[20px] left-[395px]"
             alt="a"
             src={image4}
-          />
+          /> */}
 
-          <img
+          {/* <img
             className="absolute w-[92px] h-[92px] bottom-[40px] right-[605px]"
             alt="a"
             src={image2}
-          />
+          /> */}
           <img
             className="absolute w-[72px] h-[72px] bottom-[60px] right-[15px]"
             alt="a"
@@ -99,8 +99,8 @@ function LandingPage() {
           </p>
         </div>
       </div>
-      <PhoneAdvert />
-      <Instruction />
+      {/* <PhoneAdvert />
+      <Instruction /> */}
       <Benefits />
       <Grades />
       <TopicsVariety />

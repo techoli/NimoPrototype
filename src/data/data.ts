@@ -10,8 +10,9 @@ import images3 from "../images/3.png";
 import images4 from "../images/4.png";
 import varimg from "../images/var.png";
 import robot from "../images/robot.png";
-import study from "../images/study.png";
-import universe from "../images/universe.png";
+import aanal from "../images/aanal.png";
+import wtioo from "../images/wtioo.png";
+import flcl from "../images/fcl.png";
 import grade1 from "../images/grade1.png";
 import grade2 from "../images/grade2.png";
 import grade3 from "../images/grade3.png";
@@ -39,38 +40,47 @@ export const BenefitData: BenefitDataTypes[] = [
   {
     id: 1,
     h1: "Why Tioo?",
-    h2: "Globally Competitive",
-    p1: "With Tioo, we take your child’s grades and productivity to a next level",
-    p2: "Our platform allows students access to carefully curated contents by Licensed educators and diverse curriculum which equips students with the necessary skills, knowledge, and mindset to thrive in an interconnected and rapidly changing global landscape. It prepares them to be active participants, responsible global citizens, and contributors to a globalized society.",
-    img: universe,
+    h2: "Premium Content",
+    p1: "With Tioo, we take your child’s grades and productivity to the next level",
+    p2: "Give your child an advantage with the wealth of educational tools at our disposal, from extracurricular lessons like coding, spatial reasoning, puzzles, and spelling bee to curriculum-based subjects relevant to their academics.",
+    img: wtioo,
     rightrender: true,
   },
   {
     id: 2,
     h1: "Immersive and Gamified",
     h2: "",
-    p1: "Our self-learning platform allows students access their lessons, quizzes and school work in an immersive and interactive format which makes their learning less traditional and more fun & engaging.",
-    p2: "This is one of the best ways to keep your child learning and learning",
+    p1: "Our lesson content is game-like, smart, and interactive. This makes your child participate fully in the learning process and makes learning fun and interesting.",
+    p2: "This is one of the best ways to keep your child learning and learning.",
     img: varimg,
     rightrender: false,
   },
   {
     id: 3,
-    h1: "Real-Time Feedback",
+    h1: "Personalized And Adaptive",
     h2: "",
-    p1: "Our AI provides instant and real-time feedback to children as they learn, helping them in areas they encounter challenges. Our AI tutor can help students solve maths problems, Which makes learning seamless and easy!",
-    p2: "Try Tioo today!",
+    p1: "Using AI and game mechanics, our platform makes sure that each child learns in a way that fits their own learning style, pace, and tastes. With this personalized method, the content and activities are made to fit each student’s needs.",
+    p2: "",
     img: robot,
     rightrender: true,
   },
   {
     id: 4,
-    h1: "Self-Learning",
+    h1: "Flipped Classroom",
     h2: "",
-    p1: "The platform's AI capabilities enable it to continuously learn and improve over time, ensuring that the content and recommendations remain up to date and relevant.",
-    p2: " This self-learning aspect allows children and teenagers to take control of their education, exploring topics of interest and advancing at their own pace, while still receiving guidance and support from the AI system.",
-    img: study,
+    p1: "Our platform allows school owners and teachers to implement the flipped classroom approach, which encourages active learning by having students study content before class, which allows for  discussions and problem solving in class.",
+    p2: "",
+    img: flcl,
     rightrender: false,
+  },
+  {
+    id: 5,
+    h1: "Advanced analytics",
+    h2: "",
+    p1: "Tioo provides real-time feedback and learning recommendations to both parents and teachers to further understand, nurture, and guide the child.",
+    p2: "",
+    img: aanal,
+    rightrender: true,
   },
 ];
 
