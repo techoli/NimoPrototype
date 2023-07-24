@@ -4,6 +4,9 @@ import Button from "../../components/Button";
 import logo from "../../../images/tioologo.png";
 
 function Navbar() {
+  const handleClick = () => {
+    console.log("Do something");
+  };
   return (
     <div className="w-full relative h-[70px]  ">
       <img
@@ -19,7 +22,7 @@ function Navbar() {
       </div>
 
       <div className=" absolute h-[60px] w-[210px] right-[22px] top-[12px] ">
-        <Button text1="Join Discount List" />
+        <Button text1="Join Discount List" onclick={handleClick} />
       </div>
     </div>
   );

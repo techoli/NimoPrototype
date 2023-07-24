@@ -10,6 +10,9 @@ import phone2 from "../../../images/phone2.png";
 import frame from "../../images/Frame.png";
 
 function PhoneAdvert() {
+  const handleClick = () => {
+    console.log("Do something");
+  };
   return (
     <div className="w-full relative bg-[#F8F4F4] h-[449px] px-20 py-10">
       <img
@@ -38,18 +41,17 @@ function PhoneAdvert() {
           height={35}
           width={218}
           image={play}
-          text1="Get app on 
-"
+          text1="Get app on"
           text2="Google play"
+          onclick={handleClick}
         />
         <ButtonCustom
           image={apple}
           height={35}
           width={218}
-          text1="Get app on 
-"
-          text2="
-          apple store"
+          text1="Get app on"
+          text2="apple store"
+          onclick={handleClick}
         />
       </div>
       <div className="flex gap-2 px-1 mt-2">

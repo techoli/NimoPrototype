@@ -5,6 +5,7 @@ export interface button {
   text2?: string;
   image?: string;
   bg?: string;
+  onclick: () => void;
 }
 export interface InstructionDatatype {
   id: number;

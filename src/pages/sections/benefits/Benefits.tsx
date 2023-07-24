@@ -8,6 +8,9 @@ import play from "../../../images/play.png";
 import fire from "../../../images/fire.png";
 
 function Benefits() {
+  const handleClick = () => {
+    console.log("Do something");
+  };
   return (
     <div className="w-full relative  px-20 py-10 ">
       {BenefitData?.map((item, ind) => (
@@ -36,6 +39,7 @@ function Benefits() {
           text1="Get app on"
           text2="Google play"
           bg={"2C2C30"}
+          onclick={handleClick}
         />
         <ButtonCustom
           image={apple}
@@ -44,6 +48,7 @@ function Benefits() {
           text1="Get app on"
           text2="apple store"
           bg={"2C2C30"}
+          onclick={handleClick}
         />
       </div>
     </div>

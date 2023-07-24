@@ -8,6 +8,7 @@ const ButtonCustom: React.FC<button> = ({
   text2,
   image,
   bg,
+  onclick,
 }) => {
   return (
     <div

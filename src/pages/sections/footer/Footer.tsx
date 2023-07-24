@@ -8,6 +8,9 @@ import { BsFacebook } from "react-icons/bs";
 import logo from "../../../images/tioologo.png";
 
 function Footer() {
+  const handleClick = () => {
+    console.log("Do something");
+  };
   return (
     <div className="bg-[#FAFAFA]  w-full relative  px-20 mt-12 mb-5   font-[poppins]  ">
       <div className="flex border-b-2 border-[#CECDFD] w-full">
@@ -38,6 +41,7 @@ function Footer() {
                 text1="Get app on"
                 text2="Google play"
                 bg={"2C2C30"}
+                onclick={handleClick}
               />
               <ButtonCustom
                 image={apple}
@@ -46,6 +50,7 @@ function Footer() {
                 text1="Get app on"
                 text2="apple store"
                 bg={"2C2C30"}
+                onclick={handleClick}
               />
             </div>
           </div>

@@ -4,6 +4,9 @@ import image3 from "../../../images/img3.png";
 import Button from "../../components/Button";
 
 function Header() {
+  const handleClick = () => {
+    console.log("Do something");
+  };
   return (
     <div className="px-20 py-14 relative w-full h-[vh]  ">
       <div className=" w-full  flex ">
@@ -67,7 +70,7 @@ function Header() {
         />
       </div>
       <div className="h-[80px] w-[312px]">
-        <Button text1="Join Discount List" />
+        <Button text1="Join Discount List" onclick={handleClick} />
       </div>
       <div className="w-[353px]">
         <p className="text-[#EC2958] font-[600] text-[18px]">

@@ -6,6 +6,9 @@ import { InstructionData } from "../../../data/data";
 import image from "../../../images/instrlogo.png";
 
 function Instruction() {
+  const handleClick = () => {
+    console.log("Do something");
+  };
   return (
     <div className="h-[816px] w-full bg-[#FFEBE9] pt-32 relative">
       <img src={bg} className="absolute rotate-[]  top-[0px]" />
@@ -30,7 +33,7 @@ function Instruction() {
           ))}
         </ol>
         <div className="h-[50px] w-[218px]">
-          <Button text1="Get Started" />
+          <Button text1="Get Started" onclick={handleClick} />
         </div>
       </div>
     </div>

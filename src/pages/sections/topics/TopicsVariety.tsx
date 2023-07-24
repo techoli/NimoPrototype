@@ -9,6 +9,9 @@ import slide2 from "../../../images/sliderimg/slide2.png";
 const images = [slide1, slide2];
 
 function TopicsVariety() {
+  const handleClick = () => {
+    console.log("Do something");
+  };
   return (
     <div className="w-full relative  px-20 py-10">
       <div className="h-[413px] w-full  flex gap-20 justify-evenly">
@@ -23,7 +26,7 @@ function TopicsVariety() {
               stay on track!
             </p>
             <div className="h-[50px] w-[218px] mt-3">
-              <Button text1="Get Started" />
+              <Button text1="Get Started" onclick={handleClick} />
             </div>
           </div>
         </div>
