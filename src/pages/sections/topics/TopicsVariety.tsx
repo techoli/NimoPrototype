@@ -29,7 +29,7 @@ function TopicsVariety() {
         </div>
         <div className=" w-[50%] flex justify-center ">
           {/* <SimpleImageSlide /> */}
-          <Slider images={images} />
+          <Slider images={images} autoplayInterval={2000} />
         </div>
       </div>
       <div className="flex justify-between gap-10">
