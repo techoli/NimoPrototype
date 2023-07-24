@@ -4,6 +4,7 @@ export interface button {
   text1?: string;
   text2?: string;
   image?: string;
+  bg?: string;
 }
 export interface InstructionDatatype {
   id: number;

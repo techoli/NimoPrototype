@@ -12,7 +12,7 @@ const BenefitCard: React.FC<BenefitDataTypes> = ({
   return (
     <div>
       {rightrender ? (
-        <div className=" w-full grid grid-cols-[repeat(2,1fr)] gap-[20px] min-h-[600px]">
+        <div className=" w-full grid grid-cols-[repeat(2,1fr)] gap-[20px] min-h-[600px] ">
           <div className=" w-full pt-20  ">
             <h1 className="font-[poppins] font-[600] text-[48px] text-[rgba(3, 0, 54, 0.74)]">
               {h1}

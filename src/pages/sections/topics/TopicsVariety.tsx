@@ -2,6 +2,11 @@ import React from "react";
 import SimpleImageSlide from "../../components/SimpleImageSlide";
 import Button from "../../components/Button";
 import { GradeData, TopicsData } from "../../../data/data";
+import Slider from "../../components/Slider";
+import slide1 from "../../../images/sliderimg/slide1.png";
+import slide2 from "../../../images/sliderimg/slide2.png";
+
+const images = [slide1, slide2];
 
 function TopicsVariety() {
   return (
@@ -23,7 +28,8 @@ function TopicsVariety() {
           </div>
         </div>
         <div className=" w-[50%] flex justify-center ">
-          <SimpleImageSlide />
+          {/* <SimpleImageSlide /> */}
+          <Slider images={images} />
         </div>
       </div>
       <div className="flex justify-between gap-10">

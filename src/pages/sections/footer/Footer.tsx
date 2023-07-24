@@ -37,6 +37,7 @@ function Footer() {
                 image={play}
                 text1="Get app on"
                 text2="Google play"
+                bg={"2C2C30"}
               />
               <ButtonCustom
                 image={apple}
@@ -44,6 +45,7 @@ function Footer() {
                 width={190}
                 text1="Get app on"
                 text2="apple store"
+                bg={"2C2C30"}
               />
             </div>
           </div>
