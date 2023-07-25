@@ -3,6 +3,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import LandingPage from "./pages";
+import "./style/style.css";
 
 function App() {
   return (

@@ -82,7 +82,7 @@ function FAQ() {
               Privacy/Security
             </div>
             <div className=" h-full font-[600] text-[18px] flex items-center p-5">
-              Reyurn/Refund Policy
+              Return/Refund Policy
             </div>
           </div>
         </div>

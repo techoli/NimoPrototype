@@ -5,6 +5,7 @@ import Button from "../../components/Button";
 import FlashButton from "../../components/FlashBtn";
 import CenterModal from "../../components/CenterModal";
 import DiscountModal from "../../components/DiscountModals";
+import sty from "../../../style/style.module.css";
 
 function Header() {
   const [active, setActive] = useState(false);
@@ -15,12 +16,14 @@ function Header() {
   };
   return (
     <>
-      <div className="pl-20 py-14 relative w-full h-[vh]     flex  flex-wrap">
+      <div className="pl-20 py-14 relative w-full h-[vh] flex  flex-wrap">
         {/* <div className="w-[677px]     flex flex-col"> */}
-        <div className="w-[58%]     flex flex-col pt-10">
-          <h3 className="font-[poppins] font-[600] text-[54px] drop-shadow-xl leading-[75px]">
+        <div className="w-[58%] flex flex-col pt-10">
+          <h3
+            className={`font-[poppins] font-[600] text-[54px]  leading-[75px] drop-shadow-2xl`}
+          >
             Self-tutoring App
-            <span className="font-sans text-[#EC2958] ml-2">
+            <span className="font-sans text-[#EC2958] ml-4">
               For <br />
               Kids And Teens
             </span>
@@ -47,7 +50,10 @@ function Header() {
                 customizes the learning experience for each child, matching
                 their unique learning style, pace, and preferences. This
                 personalized approach tailors the content and activities,
-                catering precisely to their individual needs.{" "}
+                catering precisely to their individual needs. <br />
+                <span className="font-[500] text-[18px] text-[#D42E2E] block mt-2">
+                  Coming in September 2023{" "}
+                </span>
                 <a
                   onClick={() => setReadmore(false)}
                   className="text-[#EC2958] underline cursor-pointer"

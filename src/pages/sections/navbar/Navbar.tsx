@@ -59,7 +59,7 @@ function Navbar() {
         </div>
 
         <div className=" absolute h-[60px] w-[210px] right-[22px] top-[6px] ">
-          <FlashButton
+          <Button
             text1="Join Discount List"
             onclick={() => {
               setActive(true);
