@@ -8,8 +8,12 @@ function Grades() {
         We cover different Grades
       </h1>
       <div className="flex justify-between gap-10">
-        {GradeData?.map((item) => (
-          <div className="h-[472px] w-[375px] rounded-[16px] p-[11px] shadow-md bg-[#FFF] border-solid border-1 border-black">
+        {GradeData?.map((item, ind) => (
+          <div
+            className={`h-[462px] w-[375px] rounded-[16px] p-[11px] shadow-md bg-[#FFF] border-solid border-1 border-black ${
+              ind === 1 && `h-[487px]`
+            }`}
+          >
             <div className="h-[284px] w-full  rounded-[8px]">
               <img className="w-full h-full" src={item.img} />
               <h1 className="text-[24px] font-[600] my-3">{item.heading}</h1>

@@ -19,7 +19,7 @@ import Header from "./sections/header/Header";
 function LandingPage() {
   return (
     // <div className="w-full max-w-[1440px]  min-w-[1403px] m-[auto] text-[#5c597d]">
-    <div className="w-[100%] max-w-[1440px] min-w-[1124px] m-[auto] text-[#5c597d]">
+    <div className="w-[100%] max-w-[1440px] min-w-[1024px] m-[auto] text-[#5c597d]">
       <Navbar />
       <Header />
       <HowItWorks />

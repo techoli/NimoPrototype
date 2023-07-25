@@ -14,8 +14,8 @@ function TopicsVariety() {
   };
   return (
     <div className="w-full relative  px-20 py-10">
-      <div className="h-[413px] w-full  flex gap-20 justify-evenly">
-        <div className=" w-[50%]">
+      <div className="h-[413px] w-full  flex justify-evenly  ">
+        <div className=" w-[55%]  ">
           <div className="w-[90%] mt-10 font-[poppins]">
             {" "}
             <h1 className="font-[600]  text-[56px]">
@@ -30,7 +30,7 @@ function TopicsVariety() {
             </div>
           </div>
         </div>
-        <div className=" w-[50%] flex justify-center ">
+        <div className=" w-[45%] flex justify-center  ">
           {/* <SimpleImageSlide /> */}
           <Slider images={images} autoplayInterval={2000} />
         </div>

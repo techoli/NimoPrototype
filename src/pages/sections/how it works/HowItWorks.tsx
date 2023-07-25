@@ -14,7 +14,7 @@ function HowItWorks() {
       <h1 className="font-[600] text-[32px] text-[#4F46E5]">
         How It Works &rarr;
       </h1>
-      <div className="w-[500px] h-[121px]   absolute top-[70px] left-[480px] flex gap-5 items-center">
+      <div className=" w-[500px] h-[121px]   absolute top-[70px] left-[480px] flex gap-5 items-center">
         <img
           className="h-[40px] w-[40px] absolute top-[-15px] left-[-15px]"
           src={one}

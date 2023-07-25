@@ -19,10 +19,13 @@ function Footer() {
             className="w-[160px] h-[124px] absolute top-9 left-5"
             src={logo}
           />
+          <h5 className="absolute left-[90px] bottom-[100px] font-[500] text-[12px] text-[#4F46E5]">
+            By Praxeum
+          </h5>
         </div>
-        <div className=" flex mt-[5rem]  gap-14 w-[85%]  mb-[20px]   justify-evenly">
-          <div className="h-full w-[50%]  ">
-            <div className="flex gap-5">
+        <div className=" flex mt-[4rem]  gap-5 w-[85%]  mb-[20px]   justify-evenly">
+          <div className="h-full w-[50%] ">
+            <div className="flex gap-5      mb-5 ">
               <a className="font-[500] text-[20px]" href="#">
                 About
               </a>
@@ -33,10 +36,10 @@ function Footer() {
                 Terms
               </a>
             </div>
-            <div className="flex gap-10  h-[75%] ">
+            <div className="flex gap-10  h-[90px] w-full      ">
               <ButtonCustom
-                height={15}
-                width={190}
+                height={25}
+                width={220}
                 image={play}
                 text1="Get app on"
                 text2="Google play"
@@ -46,7 +49,7 @@ function Footer() {
               <ButtonCustom
                 image={apple}
                 height={25}
-                width={190}
+                width={220}
                 text1="Get app on"
                 text2="apple store"
                 bg={"2C2C30"}
@@ -54,7 +57,7 @@ function Footer() {
               />
             </div>
           </div>
-          <div className="h-full w-[50%]  flex flex-col justify-center items-end">
+          <div className="h-full w-[50%]  flex flex-col justify-center items-end pt-5">
             <div className="flex  gap-3 w-[130px] items-end justify-end">
               <AiOutlineTwitter />
               <SlSocialLinkedin />

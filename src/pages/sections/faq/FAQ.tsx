@@ -45,6 +45,7 @@ function FAQ() {
   };
   const DropItem: React.FC<dropItem> = ({ ind, id, heading, text }) => {
     const isOpen = open[ind];
+
     return (
       <div className="w-full border-b-2 border-[#CECDFD]">
         <div
@@ -55,11 +56,11 @@ function FAQ() {
           <p>{heading}</p>
         </div>
         {/* This will show the content */}
-        {isOpen && (
+        {/* {isOpen && (
           <div className="h-[200px] w-full px-12">
             <p>{text}</p>
           </div>
-        )}
+        )} */}
       </div>
     );
   };
@@ -67,16 +68,20 @@ function FAQ() {
   return (
     <div className="w-full relative  px-20 py-10 font-[poppins]  ">
       <h1 className=" font-[500] text-[48px]">Frequently Asked Questions</h1>
-      <div className="bg-[#FFF] rounded-[8px] p-10 mt-10 m-[auto]  w-[1123px] shadow-md border">
+      <div className="bg-[#FFF] rounded-[8px] p-10 mt-10 m-[auto]  w-[1123px] shadow-xl  border-[3px]">
         {/* Heading */}
-        <div className="w-full h-[80px]  flex justify-center  ">
+        <div className="pl-10 w-full h-[80px]  flex justify-between ">
           <div className="w-[80%] h-[90%] flex justify-between">
-            <div className=" h-full font-[600] text-[18px]">Membership</div>
-            <div className=" h-full font-[600] text-[18px]">Tioo App</div>
-            <div className=" h-full font-[600] text-[18px]">
+            <div className=" h-full font-[600] text-[18px] flex items-center p-5  bg-[#E3E2FF] rounded-[8px]">
+              Membership
+            </div>
+            <div className=" h-full font-[600] text-[18px] flex items-center p-5">
+              Tioo App
+            </div>
+            <div className=" h-full font-[600] text-[18px] flex items-center p-5">
               Privacy/Security
             </div>
-            <div className=" h-full font-[600] text-[18px]">
+            <div className=" h-full font-[600] text-[18px] flex items-center p-5">
               Reyurn/Refund Policy
             </div>
           </div>

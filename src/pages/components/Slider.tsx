@@ -25,14 +25,14 @@ const Slider: React.FC<Img> = ({ images, autoplayInterval }) => {
   }, [images.length, autoplayInterval]);
 
   return (
-    // <div className="relative border border-gray-500 ">
-    //   <div className="overflow-hidden border border-gray-500 ">
+    // <div className="relative    ">
+    //   <div className="overflow-hidden    ">
     //     <div
     //       className="flex transition-transform duration-300 ease-in-out  "
     //       style={{ transform: `translateX(-${currentSlide * 100}%)` }}
     //     >
     //       {images.map((image, index) => (
-    //         <div key={index} className=" border border-gray-500">
+    //         <div key={index} className="   ">
     //           <img
     //             src={image}
     //             alt={`Slide ${index + 1}`}
@@ -54,13 +54,21 @@ const Slider: React.FC<Img> = ({ images, autoplayInterval }) => {
     //     ))}
     //   </div>
     // </div>
-    <div className="relative overflow-hidden">
+    <div className="   w-full overflow-hidden">
       <div
-        className="flex transition-transform duration-500 ease-in-out"
-        style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+        className="flex transition-transform duration-500 ease-in-out    w-[990px] "
+        style={{
+          transform: `translateX(-${
+            currentSlide == 0 ? currentSlide * 100 : currentSlide * 50
+          }%)`,
+        }}
       >
         {images.map((image, index) => (
-          <div key={index} className="w-full">
+          <div
+            key={index}
+            // style={{ width: "100rem" }}
+            className="    w-full"
+          >
             <img
               src={image}
               alt={`Slide ${index + 1}`}

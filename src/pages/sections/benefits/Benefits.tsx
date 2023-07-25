@@ -13,6 +13,15 @@ function Benefits() {
   };
   return (
     <div className="w-full relative  px-20 py-10 ">
+      <div className="w-full ">
+        <h1 className="font-[poppins] font-[600] text-[42px] text-[rgba(3, 0, 54, 0.74)] ">
+          Why Tioo?
+        </h1>
+        <p className="font-[poppins] font-[600] text-[16px]">
+          With Tioo, we take your child’s grades and productivity to the next
+          level
+        </p>
+      </div>
       {BenefitData?.map((item, ind) => (
         <BenefitCards
           key={ind}
@@ -31,10 +40,10 @@ function Benefits() {
         </p>
         <img src={fire} />
       </div>
-      <div className="flex gap-10  h-[75%] ">
+      <div className="flex gap-10  h-[90px] w-full ">
         <ButtonCustom
-          height={15}
-          width={190}
+          height={25}
+          width={220}
           image={play}
           text1="Get app on"
           text2="Google play"
@@ -44,7 +53,7 @@ function Benefits() {
         <ButtonCustom
           image={apple}
           height={25}
-          width={190}
+          width={220}
           text1="Get app on"
           text2="apple store"
           bg={"2C2C30"}

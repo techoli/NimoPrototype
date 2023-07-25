@@ -39,10 +39,10 @@ export const InstructionData: InstructionDatatype[] = [
 export const BenefitData: BenefitDataTypes[] = [
   {
     id: 1,
-    h1: "Why Tioo?",
-    h2: "Premium Content",
-    p1: "With Tioo, we take your child’s grades and productivity to the next level",
-    p2: "Give your child an advantage with the wealth of educational tools at our disposal, from extracurricular lessons like coding, spatial reasoning, puzzles, and spelling bee to curriculum-based subjects relevant to their academics.",
+    h1: "Premium Content",
+    h2: "",
+    p1: "Give your child an advantage with the wealth of educational tools at our disposal, from extracurricular lessons like coding, spatial reasoning, puzzles, and spelling bee to curriculum-based subjects relevant to their academics.",
+    p2: "",
     img: wtioo,
     rightrender: true,
   },
