@@ -30,7 +30,7 @@ function TopicsVariety() {
             </div>
           </div>
         </div>
-        <div className=" w-full sm:w-[45%] flex justify-center border border-gray-500 ">
+        <div className=" w-full sm:w-[45%] flex justify-center  ">
           {/* <SimpleImageSlide /> */}
           <Slider images={images} autoplayInterval={4000} />
         </div>
