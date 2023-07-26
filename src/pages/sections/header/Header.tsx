@@ -81,7 +81,7 @@ function Header() {
 
         <img
           // className="w-[587px] h-[607px]     "
-          className=" w-[30%] sm:w-[41%] h-[303px] sm:h-[507px]   "
+          className=" w-[100%] sm:w-[41%] h-[303px] sm:h-[507px]   "
           alt="a"
           src={image}
         />
