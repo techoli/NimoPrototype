@@ -20,16 +20,19 @@ function Header() {
         {/* <div className="w-[677px]     flex flex-col"> */}
         <div className="w-full sm:w-[58%] flex flex-col pt-2 sm:pt-10 ">
           <h3
-            className={` text-center sm:text-left font-[poppins] font-[600] text-[30px] sm:text-[54px]  leading-[45px] sm:leading-[75px] drop-shadow-2xl`}
+            className={` text-center sm:text-left font-[poppins] font-[600] text-[30px] sm:text-[54px]  leading-[45px] sm:leading-[75px] text-shade `}
+            style={{
+              textShadow: "4px 2px 6px rgba(0, 0, 0,  0.40) !important",
+            }}
           >
             Self-tutoring App
-            <span className="font-sans text-[#EC2958] ml-4">
+            <span className="font-sans text-[#EC2958] ml-4 ">
               For <br />
               Kids And Teens
             </span>
           </h3>
           <div className="  mt-2 mb-12 border-none sm:border-l-4 sm:border-[#FBCECE] w-full px-2">
-            <p className=" text-center sm:text-left text-[13px] sm:text-[17px] font-[500]">
+            <p className=" text-center sm:text-left text-[13px] sm:text-[17px] font-[500] ">
               Introducing our self-tutoring app, an AI tool that empowers
               primary and secondary school students to independently study their
               school curriculum and explore extra-curricular lessons with no
@@ -65,6 +68,7 @@ function Header() {
           </div>
           <div className="w-[192px] sm:w-[292px] h-[50px] sm:h-[80px] ml-[6rem] sm:ml-0">
             <Button
+              hover={true}
               text1="Join Discount List"
               onclick={() => {
                 setActive(true);
