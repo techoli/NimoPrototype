@@ -13,39 +13,43 @@ function TopicsVariety() {
     console.log("Do something");
   };
   return (
-    <div className="w-full relative  px-20 py-10">
-      <div className="h-[413px] w-full  flex justify-evenly  ">
-        <div className=" w-[55%]  ">
-          <div className="w-[90%] mt-10 font-[poppins]">
+    <div className="w-full relative px-5 sm:px-20 py-10">
+      <div className=" w-full flex flex-col  sm:flex sm:flex-row justify-evenly gap-5 ">
+        <div className=" w-full sm:w-[55%]  ">
+          <div className="w-[90%] mt-10 font-[poppins] ">
             {" "}
-            <h1 className="font-[600]  text-[56px]">
+            <h1 className="font-[600] text-[24px] sm:text-[56px]">
               A variety of Topics to choose from
             </h1>
-            <p className="font-[500] text-[16px]">
+            <p className="font-[500] text-[12px] sm:text-[16px]">
               Start learning any subject from the web or app, set a pace and
               stay on track!
             </p>
-            <div className="h-[50px] w-[218px] mt-3">
+            <div className="h-[50px] w-[218px] mt-3 absolute top-[30rem] left-[4rem] sm:static">
               <Button text1="Get Started" onclick={handleClick} />
             </div>
           </div>
         </div>
-        <div className=" w-[45%] flex justify-center  ">
+        <div className=" w-full sm:w-[45%] flex justify-center  ">
           {/* <SimpleImageSlide /> */}
           <Slider images={images} autoplayInterval={4000} />
         </div>
       </div>
-      <div className="flex justify-between gap-10">
+      <div className="flex flex-col sm:flex sm:flex-row justify-between gap-10 mt-28">
         {TopicsData?.map((item) => (
-          <div className="font-[poppins] h-[472px] w-[375px] rounded-[16px] p-[11px] bg-[#FFF] border-solid border-1 border-black">
+          <div className="font-[poppins] h-[472px] w-full sm:w-[375px] rounded-[16px] p-[11px] bg-[#FFF] border-solid border-1 border-black">
             <div className="h-[284px] w-full  rounded-[8px] ">
               <img className="w-full h-full" src={item.img} />
             </div>
             <div className="relative  h-[160px]">
-              <h1 className="text-[24px] font-[600] my-1">{item.heading}</h1>
-              <p className="text-[14px] font-[500]">{item.text}</p>
+              <h1 className="text-[24px] sm:text-[24px] font-[600] my-1">
+                {item.heading}
+              </h1>
+              <p className=" text-[12px] sm:text-[14px] font-[500]">
+                {item.text}
+              </p>
               <a
-                className="absolute  bottom-[3px] text-[18px] font-[500] text-[#4F46E5]"
+                className="absolute  bottom-[3px] text-[14px] sm:text-[18px] font-[500] text-[#4F46E5]"
                 href="#"
               >
                 {" "}

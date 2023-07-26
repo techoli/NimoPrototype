@@ -66,12 +66,17 @@ function FAQ() {
   };
 
   return (
-    <div className="w-full relative  px-20 py-10 font-[poppins]  ">
-      <h1 className=" font-[500] text-[48px]">Frequently Asked Questions</h1>
-      <div className="bg-[#FFF] rounded-[8px] p-10 mt-10 m-[auto]  w-[1123px] shadow-xl  border-[3px]">
+    <div className="w-full relative px-5 sm:px-20 py-10 font-[poppins] ">
+      <h1 className=" font-[500] text-[20px] sm:text-[48px]">
+        Frequently Asked Questions
+      </h1>
+      <div className="bg-[#FFF] rounded-none sm:rounded-[8px] p-0 sm:p-10 mt-10 m-[auto]  w-full sm:w-[1123px] shadow-none sm:shadow-xl border-none sm:border-[3px]">
         {/* Heading */}
-        <div className="pl-10 w-full h-[80px]  flex justify-between ">
-          <div className="w-[80%] h-[90%] flex justify-between">
+        <div className="pl-0 sm:pl-10 w-full h-[80px]  flex justify-between ">
+          <div className="flex sm:hidden w-full h-full font-[600] text-[18px]  items-center p-5  bg-[#E3E2FF] rounded-none sm:rounded-[8px]">
+            Membership
+          </div>
+          <div className="w-[80%] h-[90%] hidden sm:flex justify-between">
             <div className=" h-full font-[600] text-[18px] flex items-center p-5  bg-[#E3E2FF] rounded-[8px]">
               Membership
             </div>
@@ -96,8 +101,10 @@ function FAQ() {
           />
         ))}
         <div className="w-full  text-center mt-7">
-          <p>Other questions?</p>
-          <p>
+          <p className="text-[13px] sm:text-[18px] font-[400]">
+            Other questions?
+          </p>
+          <p className="text-[13px] sm:text-[18px] font-[400]">
             Email{" "}
             <a className="text-[#4F46E5]" href="#">
               support@praxeum.ai

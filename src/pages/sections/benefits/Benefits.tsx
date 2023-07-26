@@ -12,12 +12,12 @@ function Benefits() {
     console.log("Do something");
   };
   return (
-    <div className="w-full relative  px-20 py-10 ">
+    <div className="w-full relative px-5 sm:px-20 py-10 ">
       <div className="w-full ">
-        <h1 className="font-[poppins] font-[600] text-[42px] text-[rgba(3, 0, 54, 0.74)] ">
+        <h1 className="font-[poppins] font-[600] text-[24px] sm:text-[42px] text-[rgba(3, 0, 54, 0.74)] ">
           Why Tioo?
         </h1>
-        <p className="font-[poppins] font-[600] text-[16px]">
+        <p className="font-[poppins] font-[600] text-[12px] sm:text-[16px]">
           With Tioo, we take your child’s grades and productivity to the next
           level
         </p>

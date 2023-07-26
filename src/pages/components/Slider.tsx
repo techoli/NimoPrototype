@@ -54,9 +54,9 @@ const Slider: React.FC<Img> = ({ images, autoplayInterval }) => {
     //     ))}
     //   </div>
     // </div>
-    <div className="   w-full overflow-hidden">
+    <div className="   w-full overflow-hidden sm:overflow-hidden">
       <div
-        className="flex transition-transform duration-500 ease-in-out    w-[990px] "
+        className="flex transition-transform duration-500 ease-in-out  w-[659px]  sm:w-[990px] "
         style={{
           transform: `translateX(-${
             currentSlide == 0 ? currentSlide * 100 : currentSlide * 50

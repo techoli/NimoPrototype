@@ -11,9 +11,16 @@ module.exports = {
       primary: ["poppins"],
       sans: ["Comic Sans MS", "sans-serif"],
     },
-    dropShadow: {
-      "3xl": "0 35px 35px rgba(0, 0, 0, 0.25)",
-      "4xl": "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
+
+    screens: {
+      sm: "576px",
+      // => @media (min-width: 576px) { ... }
+
+      md: "960px",
+      // => @media (min-width: 960px) { ... }
+
+      lg: "1440px",
+      // => @media (min-width: 1440px) { ... }
     },
   },
 

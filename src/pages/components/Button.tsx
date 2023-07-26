@@ -8,7 +8,7 @@ const Button: React.FC<button> = ({ height, width, text1, onclick }) => {
       className="flex text-center py-[15px] px-[33px] justify-center items-center font-[poppins] h-full w-full bg-[#4F46E5] rounded-[16px] text-[white] cursor-pointer"
       onClick={onclick}
     >
-      <p className="text-[16px] font-[500]">{text1}</p>
+      <p className=" text-[12px] sm:text-[16px] font-[500]">{text1}</p>
     </div>
   );
 };

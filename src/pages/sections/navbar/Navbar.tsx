@@ -15,12 +15,12 @@ function Navbar() {
   };
   return (
     <>
-      <div className="w-full relative h-[60px]  ">
+      <div className=" w-full relative h-[60px] ">
         <img
           src={logo}
-          className="absolute left-[22px] top-[5px] w-[130px] h-[100]"
+          className="absolute left-[2px] sm:left-[22px] top-[5px] w-[56px] sm:w-[130px] h-[46px] sm:h-[100px]"
         />
-        <h5 className="absolute top-[110px] left-[65px] font-[600] text-[18px] text-[#4F46E5]">
+        <h5 className="absolute top-[50px] sm:top-[110px] left-[22px] sm:left-[65px] font-[600] text-[12px] sm:text-[18px] text-[#4F46E5]">
           BETA
         </h5>
         {/* <div className=" flex w-[650px] m-[auto] h-full  gap-[24px] items-center ">
@@ -37,7 +37,7 @@ function Navbar() {
             </a>
           ))}
         </div> */}
-        <div className="pt-5 flex w-[650px] m-[auto] h-full  gap-[24px] items-center   ">
+        <div className="hidden sm:flex pt-5 w-[650px] m-[auto] h-full  gap-[24px] items-center   ">
           {NavData?.map((item, ind) => (
             <div className="   h-full flex items-center flex-col ">
               <a
@@ -58,7 +58,7 @@ function Navbar() {
           ))}
         </div>
 
-        <div className=" absolute h-[60px] w-[210px] right-[22px] top-[6px] ">
+        <div className=" absolute h-[40px] sm:h-[60px] w-[170px] sm:w-[210px] right-[130px] sm:right-[22px] top-[15px] sm:top-[6px] ">
           <Button
             text1="Join Discount List"
             onclick={() => {
