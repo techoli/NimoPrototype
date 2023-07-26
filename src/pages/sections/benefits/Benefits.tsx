@@ -40,7 +40,7 @@ function Benefits() {
         </p>
         <img src={fire} />
       </div>
-      <div className="flex gap-10  h-[90px] w-full ">
+      <div className="flex gap-4 sm:gap-10 h-[70px] sm:h-[90px] w-full ">
         <ButtonCustom
           height={25}
           width={220}

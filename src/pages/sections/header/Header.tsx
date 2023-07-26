@@ -18,7 +18,7 @@ function Header() {
     <>
       <div className="flex-col pl-0 py-14 sm:flex-row sm:pl-20 sm:py-14 relative w-full h-[vh] flex  flex-wrap ">
         {/* <div className="w-[677px]     flex flex-col"> */}
-        <div className="w-full sm:w-[58%] flex flex-col pt-10 ">
+        <div className="w-full sm:w-[58%] flex flex-col pt-2 sm:pt-10 ">
           <h3
             className={` text-center sm:text-left font-[poppins] font-[600] text-[30px] sm:text-[54px]  leading-[45px] sm:leading-[75px] drop-shadow-2xl`}
           >
@@ -63,7 +63,7 @@ function Header() {
               </p>
             )}
           </div>
-          <div className="w-[192px] sm:w-[292px] h-[50px]sm:h-[80px] ml-[5rem] sm:ml-0">
+          <div className="w-[192px] sm:w-[292px] h-[50px] sm:h-[80px] ml-[6rem] sm:ml-0">
             <Button
               text1="Join Discount List"
               onclick={() => {
@@ -74,7 +74,7 @@ function Header() {
               N/B: Joining the discount list is FREE! No advance payment needed
             </p>
           </div>
-          <p className=" block sm:hidden text-[#EC2958] font-[600] text-[13px] sm:text-[18px] text-center sm:text-left">
+          <p className=" block sm:hidden text-[#EC2958] font-[600] text-[13px] sm:text-[18px] text-center sm:text-left mt-3">
             N/B: Joining the discount list is FREE! No advance payment needed
           </p>
         </div>

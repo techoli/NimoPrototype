@@ -3,6 +3,7 @@ import { NavData } from "../../../data/data";
 import Button from "../../components/Button";
 import logo from "../../../images/tioologo.png";
 import { AiOutlineDown } from "react-icons/ai";
+import { HiMenuAlt2 } from "react-icons/hi";
 import FlashButton from "../../components/FlashBtn";
 import CenterModal from "../../components/CenterModal";
 import DiscountModal from "../../components/DiscountModals";
@@ -20,6 +21,9 @@ function Navbar() {
           src={logo}
           className="absolute left-[2px] sm:left-[22px] top-[5px] w-[56px] sm:w-[130px] h-[46px] sm:h-[100px]"
         />
+        <div className="block sm:hidden absolute top-[20px] right-[10px] w-[32px] h-[32px]">
+          <HiMenuAlt2 className="w-full h-full" />
+        </div>
         <h5 className="absolute top-[50px] sm:top-[110px] left-[22px] sm:left-[65px] font-[600] text-[12px] sm:text-[18px] text-[#4F46E5]">
           BETA
         </h5>

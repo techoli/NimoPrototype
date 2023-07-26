@@ -10,7 +10,7 @@ import img4 from "./images/img4.png";
 
 function HowItWorks() {
   return (
-    <div className=" w-full h-[559px] bg-[#F8F4F4] px-8 sm:px-20 py-10  relative ">
+    <div className=" w-full h-[459px]  sm:h-[559px] bg-[#F8F4F4] px-8 sm:px-20 py-10  relative ">
       <h1 className=" text-center sm:text-left font-[600] text-[24px] sm:text-[32px] text-[#4F46E5]">
         How It Works &rarr;
       </h1>
@@ -22,7 +22,7 @@ function HowItWorks() {
             className="h-[20px] sm:h-[40px] w-[20px] sm:w-[40px] absolute top-[-17px] left-[-20px]"
             src={one}
           />
-          <img className="h-full w-[132px]" src={img1} />
+          <img className="h-full w-[75px] sm:w-[132px]" src={img1} />
           <p className="font-[500] text-[14px] sm:text-[18px]">
             Sign your child up on Tioo{" "}
           </p>
@@ -32,7 +32,7 @@ function HowItWorks() {
             className="h-[20px] sm:h-[40px] w-[20px] sm:w-[40px] absolute top-[-15px] left-[-15px]"
             src={three}
           />
-          <img className="h-full w-[132px]" src={img3} />
+          <img className="h-full w-[75px] sm:w-[132px]" src={img3} />
           <p className="font-[500] text-[14px] sm:text-[18px]">
             Choose a lesson and start learning!{" "}
           </p>

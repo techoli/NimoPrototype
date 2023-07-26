@@ -25,12 +25,12 @@ function TopicsVariety() {
               Start learning any subject from the web or app, set a pace and
               stay on track!
             </p>
-            <div className="h-[50px] w-[218px] mt-3 absolute top-[30rem] left-[4rem] sm:static">
+            <div className="h-[50px] w-[218px] mt-3 absolute top-[30rem] left-[5rem] sm:static">
               <Button text1="Get Started" onclick={handleClick} />
             </div>
           </div>
         </div>
-        <div className=" w-full sm:w-[45%] flex justify-center  ">
+        <div className=" w-full sm:w-[45%] flex justify-center border border-gray-500 ">
           {/* <SimpleImageSlide /> */}
           <Slider images={images} autoplayInterval={4000} />
         </div>
