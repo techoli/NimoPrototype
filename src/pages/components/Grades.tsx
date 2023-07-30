@@ -12,7 +12,7 @@ function Grades() {
           <div
             className={`h-[412px] sm:h-[462px] w-full sm:w-[375px] rounded-[16px] p-[11px] shadow-md bg-[#FFF] border-solid border-1 border-black ${
               ind === 1 && `h-[412px] sm:h-[487px]`
-            }`}
+            } shadow-lg`}
           >
             <div className="h-[284px] w-full  rounded-[8px]">
               <img className="w-full h-full" src={item.img} />

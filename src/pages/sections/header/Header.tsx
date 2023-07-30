@@ -18,7 +18,7 @@ function Header() {
     <>
       <div className="flex-col pl-0 py-14 sm:flex-row sm:pl-20 sm:py-14 relative w-full h-[vh] flex  flex-wrap ">
         {/* <div className="w-[677px]     flex flex-col"> */}
-        <div className="w-full sm:w-[58%] flex flex-col pt-2 sm:pt-10 ">
+        <div className="w-full sm:w-[55%] flex flex-col pt-2 sm:pt-10 ">
           <h3
             className={` text-center sm:text-left font-[poppins] font-[600] text-[30px] sm:text-[54px]  leading-[45px] sm:leading-[75px] text-shade `}
             style={{
@@ -32,7 +32,7 @@ function Header() {
             </span>
           </h3>
           <div className="  mt-2 mb-12 border-none sm:border-l-4 sm:border-[#FBCECE] w-full px-2">
-            <p className=" text-center sm:text-left text-[13px] sm:text-[17px] font-[500] ">
+            <p className=" text-center sm:text-left text-[13px] sm:text-[14px] font-[500] text-[#7C7B7B]">
               Introducing our self-tutoring app, an AI tool that empowers
               primary and secondary school students to independently study their
               school curriculum and explore extra-curricular lessons with no
@@ -48,7 +48,7 @@ function Header() {
               )}
             </p>
             {readmore && (
-              <p className="text-center sm:text-left text-[13px] sm:text-[17px] font-[500] mt-5">
+              <p className="text-center sm:text-left text-[13px] sm:text-[14px] font-[500] mt-5 text-[#7C7B7B]">
                 Harnessing the capabilities of AI and gamification, our platform
                 customizes the learning experience for each child, matching
                 their unique learning style, pace, and preferences. This
@@ -74,7 +74,7 @@ function Header() {
                 setActive(true);
               }}
             />
-            <p className="hidden sm:block text-[#EC2958] font-[600] text-[18px] text-center sm:text-left">
+            <p className="hidden sm:block text-[#EC2958] font-[600] text-[14px] text-center sm:text-left">
               N/B: Joining the discount list is FREE! No advance payment needed
             </p>
           </div>
@@ -85,7 +85,7 @@ function Header() {
 
         <img
           // className="w-[587px] h-[607px]     "
-          className=" w-[100%] sm:w-[41%] h-[303px] sm:h-[507px]   "
+          className=" w-[100%] sm:w-[45%] h-[303px] sm:h-[507px]"
           alt="a"
           src={image}
         />
